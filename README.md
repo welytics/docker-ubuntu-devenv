@@ -1,7 +1,5 @@
 # Docker based Ubuntu dev environment
 
-I built this because I wanted to be able to spin up a clean linux dev environment without all the associated heaviness of a virtual machine.
-
 Here is what it gives me,
 1. Basic commands like sudo, curl, nano
 2. Installs latest version of node on start
@@ -27,4 +25,4 @@ Easy! This should give you a linux prompt for a user called "devuser" with passw
 4. Edit your .zshrc, and change the theme (I like agnoster)
 5. Optionally capture it using docker commit (see https://winsmarts.com/snapshot-a-docker-container-20df59bbd473)
 
-Rock on!
+based on maliksahil/docker-ubuntu-sahil
